@@ -20,6 +20,20 @@ header h1 {
     background-color: cyan;
 }
 
+.horiseon, .java, .mern, .node, .iot{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.html-text, .java-text, .mern-text, .node-text, .iot-text{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    background-color: aquamarine;
+    color:black
+  }
+
 figure {
     height: 400px;
     width: 100%;
@@ -35,3 +49,10 @@ figure {
     float: right;
     font-size: 20px;
 }
+
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    display: inline-block
+}
+
