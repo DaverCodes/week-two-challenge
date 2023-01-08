@@ -21,11 +21,17 @@ header {
     background-color:var(--cp4);
 }
 
-header a{
-    color: var(--cp2);
+nav{
+    display: inline-flex;
 }
 
-header h1 {
+.abt, .wrk, .conme, .res {
+    font-size: 30px;
+    float: right;
+}
+
+
+h1 {
     display: inline-block;
     font-size: 48px;
     background-color: var(--cp2);
@@ -38,9 +44,22 @@ img{
     border: 3px var(--cp2);
 }
 
+.about-me {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.work-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
 
 .horiseon, .java, .mern, .node, .iot{
-
     position: relative;
 }
 
@@ -63,5 +82,5 @@ figure {
 
 
 footer{
-    display: inline-block
+    display: inline-flex
 }
