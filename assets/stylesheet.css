@@ -13,36 +13,59 @@ body {
     font-size: 16;
 }
 
-header {
+header, .contact-container {
+    background-color: var(--cp4);
+    outline-width: 10px;
+    outline-style:inset ;
+    outline-color: var(--cp5);
+    border-radius: 0 0 30px 30px;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:var(--cp4);
+    justify-content: space-between;
+    align-items: baseline;
+    height:max-content;
 }
 
-nav{
-    display: inline-flex;
+nav a {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    background-color: var(--cp2);
+    border-radius: 5px;
+    outline-width: 5px;
+    outline-style: groove;
+    outline-color: var(--cp5);
+    text-decoration:underline;
+    color: black;
+    justify-content: space-between;
+    align-content: center;
+
 }
+
+.h-container, .about-me-container, .contact-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+
 
 .abt, .wrk, .conme, .res {
     font-size: 30px;
-    float: right;
 }
 
 
 h1 {
-    display: inline-block;
+    display: flex;
+    border-radius: 10px;
     font-size: 48px;
     background-color: var(--cp2);
+    margin-left: 20px;
 }
 
+/* normal flex containers for header-footer-and about me section */
 
-img{
-    height: 400px;
-    width: 800px;
-    border: 3px var(--cp2);
-}
 
 .about-me {
     display: inline-flex;
@@ -59,6 +82,12 @@ img{
     flex-wrap: wrap;
     justify-content: center;
 
+}
+
+
+img{
+    border: 3px var(--cp2);
+    flex: 1 1 0px;
 }
 
 .horiseon, .java, .mern, .node, .iot{
