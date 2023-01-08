@@ -47,6 +47,11 @@ img{
 .about-me {
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-me p {
+    display: inline-flex;
 }
 
 .work-contain {
@@ -56,17 +61,16 @@ img{
 
 }
 
-
-
-
 .horiseon, .java, .mern, .node, .iot{
     position: relative;
+    padding: 1rem;
 }
+
 
 .html-text, .java-text, .mern-text, .node-text, .iot-text{
     position: absolute;
-    bottom: 1px;
-    left: 1px;
+    bottom: 20px;
+    left: 20px;
     background-color: var(--cp2);
     color:black
   }
