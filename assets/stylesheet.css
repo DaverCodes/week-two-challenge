@@ -104,14 +104,19 @@ img{
     color:black
   }
 
-figure {
-    height: 200px;
-    width: 100%;
+  figure {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 200px;
+    min-height: 80px;
+    max-width: 100%;
+    min-width: 50%;
     margin-bottom: 25px;
     background-image: url(../assets/images/banner.jpg);
     background-size: cover;
     background-position: center;
-}
+}    
+
 
 
 footer{
