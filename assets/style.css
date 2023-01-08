@@ -5,14 +5,16 @@
     --cp3: #c06c84;
     --cp4: #6c5b7b;    
     --cp5: #355c7d;
-  }
+}
+
 
 body {
     background-color: var(--cp1);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16;
+    font-size: 1.6rem;
 }
 
+/* normal flex containers for header-footer-and about me section */
 header, .contact-container {
     background-color: var(--cp4);
     outline-width: 10px;
@@ -48,14 +50,6 @@ nav a {
     align-content: center;
 }
 
-
-
-
-.abt, .wrk, .conme, .res {
-    font-size: 30px;
-}
-
-
 h1 {
     display: flex;
     border-radius: 10px;
@@ -66,16 +60,19 @@ h1 {
 
 /* normal flex containers for header-footer-and about me section */
 
-
-.about-me {
-    display: inline-flex;
+figure {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
+    max-height: 200px;
+    min-height: 80px;
+    max-width: 100%;
+    min-width: 50%;
+    margin-bottom: 25px;
+    background-image: url(../assets/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}    
 
-.about-me p {
-    display: inline-flex;
-}
 
 .html-text, .java-text, .mern-text, .node-text, .iot-text{
     position: absolute;
@@ -111,22 +108,23 @@ h1 {
     flex-wrap: wrap;
 }
 
+.work-contain {
 
-  figure {
-    display: flex;
-    flex-wrap: wrap;
-    max-height: 200px;
-    min-height: 80px;
-    max-width: 100%;
-    min-width: 50%;
-    margin-bottom: 25px;
-    background-image: url(../assets/images/banner.jpg);
-    background-size: cover;
-    background-position: center;
-}    
+}
+
+.work-contain img {
+    padding: 1rem;
+}
 
 
+.contact-container {
+    
+}
+h4 {
+    border-right: 5px;
+    border-color: black;
+}
 
 footer{
-    display: inline-flex
+    
 }
