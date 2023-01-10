@@ -38,4 +38,3 @@ ultimately I let the potential of what could potentially be done get in the way 
  
  Regardless I will continue to work on this, Im actually very excited about what I have been learning with flex and I will make this site much more acceptable in the future. 
 
-
